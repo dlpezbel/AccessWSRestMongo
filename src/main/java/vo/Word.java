@@ -25,4 +25,8 @@ public class Word {
                 id, spanish, english);
     }
 
+    public String getContent() {
+        return toString();
+    }
+
 }
